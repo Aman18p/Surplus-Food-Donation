@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  /* background-image: linear-gradient(to right, rgb(23, 22, 22), rgb(48, 47, 79)); */
+  background: url(./wp7429286.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  color: aliceblue;
+}
+
+.navbar-brand {
+  background: rgb(100, 199, 212);
+  border-radius: 20rem;
+  height: 10vh;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: rgb(1, 0, 0);
+  background-color: rgb(76, 71, 71);
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  margin-left: 5em;
+}
+
+.logoheading {
+  color: rgb(10, 34, 34);
+  position: relative;
+  margin: 50px;
+  font-style: italic;
+}
+
+.img-fluid {
+  width: 25rem;
+  border-radius: 50%;
+  /* border: 5px solid black; */
+  padding: 0.5rem;
+}
+
+.paragraph {
+  /* position: relative;
+    height: 450px;
+    margin-left: 150px;
+    width: 600px;
+    display: flex;
+    align-items:center ;
+    justify-content: center; */
+  color: rgb(71, 79, 9);
+  background: transparent;
+    border: 2px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.collapse {
+  background-color: rgb(76, 71, 71);
+  padding: 0.8rem;
+  border-radius: 20rem;
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(42, 35, 34);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.card-text {
+  color: black;
+}
+
+.col-auto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-fluid {
+  background: transparent;
+}
+
+.h4search:hover {
+  color: rgb(42, 40, 40);
+  background-color: rgb(45, 229, 232);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.h4search  {
+  
+  background-color: rgb(48, 47, 79);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+  color: rgb(6, 19, 35);
+}
+
+.one {
+  color: rgb(6, 19, 35);
+}
+
+.about ul li {
+  color: rgb(6, 19, 35);
+}
+
+.about ol li {
+  color: rgb(6, 19, 35);
+}
+
+.about p {
+  color: rgb(6, 19, 35);
+}
+
+.donate {
+  /* color: black;
+    border: 2px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 15px; */
+  background-color: rgb(48, 47, 79);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttoncss {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headings {
+  color: black;
+  font-family: monospace;
+}
